@@ -1,0 +1,75 @@
+Wumpus-Lite v0.18a
+
+Dimensions: 4x4
+Maximum number of steps: 50
+Number of trials: 1
+Random Agent Location: false
+Random number seed: -419225887
+Output filename: wumpus_out.txt
+Non-Deterministic Behavior: true
+
+
+ -----------------------
+|     |     |     |   W |
+|     |     |     |     |
+ -----------------------
+| P   |     |     |     |
+|     |     |     |     |
+ -----------------------
+|     |     |     |     |
+|     |     |     |     |
+ -----------------------
+|     |     | P   |     |
+| G > |     |     |     |
+ -----------------------
+
+Percept: <none,glitter,none,none,none>
+Current score: 0
+Last action: START_TRIAL
+Time step: 0
+
+ -----------------------
+|     |     |     |   W |
+|     |     |     |     |
+ -----------------------
+| P   |     |     |     |
+|     |     |     |     |
+ -----------------------
+|     |     |     |     |
+|     |     |     |     |
+ -----------------------
+|     |     | P   |     |
+|   > |     |     |     |
+ -----------------------
+
+Percept: <none,none,none,none,none>
+Current score: 1000
+Last action: GRAB
+Time step: 1
+
+Purple found the GOLD!!
+
+ -----------------------
+|     |     |     |   W |
+|     |     |     |     |
+ -----------------------
+| P   |     |     |     |
+|     |     |     |     |
+ -----------------------
+|     |     |     |     |
+|     |     |     |     |
+ -----------------------
+|     |     | P   |     |
+|   > |     |     |     |
+ -----------------------
+
+Final score: 1000
+Last action: END_TRIAL
+
+
+___________________________________________
+
+Trial 1 score: 1000
+
+Total Score: 1000
+Average Score: 1000.0
